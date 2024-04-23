@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="main" style="display: flex;">
+
+        <div class="login-container">
+            <form id="login-form">
+                <div class="first" style="display:block;">
+                    <div class="logo"><img class=" margin" src="logo.svg" alt=""></div>
+                    <h2>Login to Spotify</h2>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-link">
+                    <a href="#" class="forgot-pass">Forgot password?</a>
+                </div>
+                
+                    <button class="btn" type="submit"><a href="http://127.0.0.1:5500/index.html">Login</a>
+                    </button>
+                
+
+            </form>
+            <div class="line"></div>
+            <div class="form-link">
+                <span>Don't have an account? <a href="sign-in.html" class="link signup-link">Signup</a></span>
+            </div>
+
+        </div>
+    </div>
+    <!-- onclick="window.location.assign('index.html');"  -->
+<!-- <script>
+    function func(){
+        var email= document.getElementById("email");
+        var password= document.getElementById("password");
+        //console.log(email,password);
+        if(email=== null & password === null){
+            alert("Invalid password")
+        }
+        else{
+            
+            alert("Login successful")
+            window.location.assign("index.html")
+        }
+    }
+</script> -->
+
+</body>
+
+</html>
+
+
